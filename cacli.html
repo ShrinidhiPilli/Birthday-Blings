@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>calculate</title>
+<script type = "text/javascript" src = "nochange.js">
+</script>
+</head>
+<body onload="computeCost().focus">
+<form action = " ">
+<h3> BOOK YOUR ORDER </h3>
+<table border="border">
+<tr>
+<th>CUSINE</th>
+<th>PRICE</th>
+<th>QUANTITY</th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(biryani.jpg);" ></th></tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(dosa.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(burger.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(manchuri.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(pullav.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(pizza.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(popcorn.jpg);" ></th></tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(samosa.jpg);" ></th>
+</tr>
+<tr>
+<th width="400px" height="200px" style="background-image:url(noodles.jpg);" ></th></tr>
+
+
+<td><input type = "text" id = "rice" size = "2"/>
+</td>
+</tr>
+<tr>
+<th>Toor daal</th>
+<td>Rs. 100</td>
+<td><input type = "text" id = "toor_daal" size = "2"/>
+</td>
+</tr>
+<tr>
+<th>Urad daal</th>
+<td>Rs. 125</td>
+<td><input type = "text" id = "urad_daal" size = "2"/>
+</td>
+</tr>
+</table>
+<p>
+<input type = "button" value = "Total Cost" onclick = "computeCost();"/>
+<input type = "text" size = "5" id = "cost" onfocus = "this.blur();"/>
+</p>
+<p> <input type = "submit" value = "Submit Order"/>
+<input type = "reset" value = "Clear Order Form"/> </p>
+</form>
+</body>
+</html>

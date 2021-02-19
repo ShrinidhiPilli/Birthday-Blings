@@ -1,0 +1,66 @@
+body{
+   background-image: url(img5.jpg);
+   height:100vh;
+   background-size:cover;
+   background-position:center;
+}
+
+
+.login-page{
+  width:360px;
+  padding:10% 0 0;
+  margin:auto;
+}
+
+
+.form{
+  postion:relative;
+  z-index:1;
+  background:blue;
+  max-width:360px;
+  margin:0 auto 100px;
+  padding:50px;
+  text-align:center;
+ }
+
+
+.form input{
+  font-family:"roboto";
+  background:#f2f2f2;
+  outline:1;
+  width:100%;
+  margin:0 0 20px;
+  border:0;
+  marging 0 0 15%;
+  padding:15px;
+  box-sizing:border box;
+  font-size:14px;
+}
+
+
+.form button{
+  font-family:"roboto";
+  text-transform:uppercase;
+  outline: 0;
+  width:100%;
+  padding:5%;
+  background:#C0C0C0;
+  font-size:14px;
+ }
+
+
+.form .message{
+  margin:15px 0 0;
+  color:aliceblue;
+ }
+
+
+.form .message a{
+  color:#C0C0C0;
+  text-decoration:none;
+ }
+
+
+.form .register-form{
+  display:none;
+}

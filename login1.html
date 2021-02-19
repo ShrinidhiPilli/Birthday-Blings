@@ -1,0 +1,50 @@
+<html>
+<title>
+  registration and login
+</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="page1.css"/>
+</head>
+<body>
+   <div class="logo">
+  <img src="logo.png">
+
+  <h3 style="color:#F1C40F;font-family:cursive;">Birthday Blings</h3>
+</div>
+   <div class="login-page">
+   <div class="form">
+      <form class="register-form">
+      <input type="text" placeholder="Username">
+      <input type="text" placeholder="Password">
+      <input type="text" placeholder="Email-id">
+      <button>
+         Create
+       </button>
+       <p class="message">Already Registered? <a href="#">Login</a>
+      </p>
+      </form>
+
+
+   <form class="login-form">
+   <input type="text" placeholder="Username">
+   <input type="text" placeholder="Password">
+   <button>
+     Login
+   </button>
+   <p class="message">Not Registered? <a href="#">Register</a>
+   </p>
+  </form>
+ </div>
+ </div>
+</body>
+
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'>
+</script>
+
+<script>
+$(' .message a').click(function(){
+$('form').animate({height: "toggle",opacity:"toggle"}, "slow");
+});
+</script>
+
+</html>
